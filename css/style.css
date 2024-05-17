@@ -65,6 +65,7 @@ ul {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 .main-btn {
     background-color: #4D5AE5;
@@ -79,7 +80,7 @@ ul {
 }
 .main-btn:hover,
 .main-btn:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 /* -----------features------------ */
 .features-title {
@@ -89,6 +90,7 @@ ul {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 .features-subtitle{
     color: #2E2F42;
@@ -97,6 +99,7 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 .features-text {
     color: #434455;
@@ -109,17 +112,16 @@ ul {
 /* -----------team---------------- */
  .team {
     background-color: #F4F4FD;
-    text-transform: capitalize;
  }
  .team-title {
-    background-color: #FFF;
+    background-color: #F4F4FD;
     text-transform: capitalize;
  }
  .team-subtitle {
-
+    text-transform: capitalize;
  }
  .team-text {
-
+    text-transform: capitalize;
  }
 
  /* ----------------------------- */
@@ -132,7 +134,7 @@ ul {
     text-transform: capitalize;
  }
  .portfolio-subtitile {
-
+    text-transform: capitalize;
  }
  .portfolio-text {
 
