@@ -68,22 +68,21 @@ ul {
 }
 .main-btn {
     background-color: #4D5AE5;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    text-align: left;  
+    text-align: center;  
     cursor: pointer; 
 }
- .team {
-    background-color: #F4F4FD;
- }
-
- .Portfolio {
-background-color: #E7E9FC;
- }
-
-.header-second {
+.main-btn:hover,
+.main-btn:focus {
+    color: #404BBF;
+}
+/* -----------features------------ */
+.features-title {
     color: #2E2F42;
     font-size: 36px;
     font-weight: 700;
@@ -91,24 +90,52 @@ background-color: #E7E9FC;
     letter-spacing: 0.02em;
     text-align: center;
 }
-
-.header-third {
+.features-subtitle{
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    text-align: left;
+    text-align: center;
 }
-
-.text {
+.features-text {
     color: #434455;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
 }
+/* ------------------------------- */
+/* -----------team---------------- */
+ .team {
+    background-color: #F4F4FD;
+ }
+ .team-title {
+    text-transform: capitalize;
+ }
+ .team-subtitle {
 
+ }
+ .team-text {
+
+ }
+
+ /* ----------------------------- */
+ /* -------portfolio------------- */
+ .portfolio {
+    background-color: #FFF;
+ }
+ .portfolio-title {
+    text-transform: capitalize;
+ }
+ .portfolio-subtitile {
+
+ }
+ .portfolio-text {
+
+ }
+/* ------------------------------- */
+/* --------------footer-------------- */
 .footer {
     background-color: #2E2F42;
 }
@@ -132,6 +159,6 @@ background-color: #E7E9FC;
     letter-spacing: 0.02em;
     text-align: left;
 }
-
+/* --------------------------------- */
 
 
