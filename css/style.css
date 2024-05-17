@@ -113,6 +113,9 @@ ul {
  .team-section {
     background-color: #F4F4FD;
  }
+ .team-item {
+    background-color: #FFFFFF;
+ }
  .team-title {
     color: #2e2f42;
     font-size: 36px;
@@ -156,7 +159,7 @@ ul {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
 }
  .portfolio-text {
     line-height: 1.5;
